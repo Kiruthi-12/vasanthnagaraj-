@@ -16,5 +16,7 @@ def todo(request):
 def invoice(request):
       return render(request, "app-invoice.html")
 def calender(request):
+      return render(request, "booking.html")
+def backend(request):
       return render(request, "backend.html")
 
